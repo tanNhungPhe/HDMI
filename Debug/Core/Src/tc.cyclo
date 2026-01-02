@@ -1,0 +1,9 @@
+../Core/Src/tc.c:10:6:tc_task	1
+../Core/Src/tc.c:34:6:Waitx1ms	1
+../Core/Src/tc.c:39:6:Waitx1us	1
+../Core/Src/tc.c:44:6:RS1	1
+../Core/Src/tc.c:357:6:RS2	1
+../Core/Src/tc.c:367:6:RS3	1
+../Core/Src/tc.c:508:6:RS4	1
+../Core/Src/tc.c:523:6:RS5	1
+../Core/Src/tc.c:544:6:int_status_check	11

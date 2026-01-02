@@ -1,0 +1,4 @@
+../Core/Src/tc2.c:5:6:Panel_Init_2	1
+../Core/Src/tc2.c:29:6:Debug_Check_GPIO_And_Registers	8
+../Core/Src/tc2.c:127:6:HDMI_Startup	1
+../Core/Src/tc2.c:552:6:TC358870_Enable_ColorBar	1

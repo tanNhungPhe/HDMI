@@ -1,0 +1,11 @@
+../Core/Src/Toshiba_TC358870_china.c:420:6:Toshiba_TC358870_HDMI2MIPI	8	static
+../Core/Src/Toshiba_TC358870_china.c:452:6:Toshiba_TC358870_HDMI_SetupChina	8	static
+../Core/Src/Toshiba_TC358870_china.c:507:6:Toshiba_TC358870_EDID_Write	4	static
+../Core/Src/Toshiba_TC358870_china.c:514:6:Toshiba_TC358870_OLED_SleepChina	8	static
+../Core/Src/Toshiba_TC358870_china.c:534:6:Toshiba_TC358870_OLED_SetupChina	16	static
+../Core/Src/Toshiba_TC358870_china.c:588:6:SendDSIcfg	8	static
+../Core/Src/Toshiba_TC358870_china.c:647:6:Setup_DSITX	16	static
+../Core/Src/Toshiba_TC358870_china.c:740:6:EDID_Write	280	static
+../Core/Src/Toshiba_TC358870_china.c:825:6:Toshiba_DumpRegisters	16	static
+../Core/Src/Toshiba_TC358870_china.c:864:6:Toshiba_EnableMIPI	16	static
+../Core/Src/Toshiba_TC358870_china.c:920:6:Toshiba_ResetPanelAndRetry	8	static

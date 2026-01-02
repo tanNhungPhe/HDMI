@@ -1,0 +1,969 @@
+RECORDS OF REVISION
+DOC. First issue Sep.5th.2014
+Model No. LQ055T3SX02Z
+Spec. No. LCY-W14702A
+DATE
+REF.PAGE
+PARAGRAPH
+DRAWING
+No.
+REVISED
+NO. SUMMARY
+2014.07.31 － － First Issue
+2014.09.05 19、20 A Revise Power ON / Power off sequence
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+1
+NOTICE
+• These specification sheets are the proprietary product of SHARP CORPORATION (SHARP) and include materials
+protected under copyright of SHARP. Do not reproduce or cause any third party to reproduce them in any form or by
+any means, electronic or mechanical, for any purpose, in whole or in part, without the express written permission of SHARP.
+• The application examples in these specification sheets are provided to explain the representative applications of the
+device and are not intended to guarantee any industrial property right or other rights or license you to use them. 1from the use of the device.
+• The device listed in these specification sheets was designed and manufactured for use in Telecommunication
+equipment (terminals)
+• In case of using the device for applications such as control and safety equipment for transportation (aircraft, trains,
+automobiles, etc. ), rescue and security equipment and various safety related equipment which require higher reliability and safety, take into consideration that appropriate measures such as fail-safe functions and redundant
+system design should be taken.
+• Do not use the device for equipment that requires an extreme level of reliability, such as aerospace applications,
+telecommunication equipment (trunk lines), nuclear power control equipment and medical or other equipment for life
+support.
+• SHARP assumes no responsibility for any damage resulting from the use of the device which does not comply with
+the instructions and the precautions specified in these specification sheets.
+• Contact and consult with a SHARP sales representative for any questions about this device.
+[For handling and system design]
+(1) Do not scratch the surface of the polarizer film as it is easily damaged.
+(2) If the cleaning of the surface of the LCD panel is necessary, wipe it swiftly with cotton or other soft cloth. Do not
+use organic solvent as it damages polarizer.
+(3) Water droplets on polarizer must be wiped off immediately as they may cause color changes, or other defects if remained for a long time.
+(4) Since this LCD panel is made of glass, dropping the module or banging it against hard objects may cause cracks or fragmentation.
+(5) Certain materials such as epoxy resin (amine’s hardener) or silicone adhesive agent (de-alcohol or de-oxym) emits
+gas to which polarizer reacts (color change). Check carefully that gas from materials used in system housing or packaging do not hart polarizer.
+(6) Liquid crystal material will freeze below specified storage temperature range and it will not get back to normal quality even after temperature comes back within specified temperature range. Liquid crystal material will become
+isotropic above specified temperature range and may not get back to normal quality. Keep the LCD module always within specified temperature range.
+(7) Do not expose LCD module to the direct sunlight or to strong ultraviolet light for long time.
+(8) If the LCD driver IC (COG) is exposed to light, normal operation may be impeded. It is necessary to design so that the light is shut off when the LCD module is mounted.
+(9) Do not disassemble the LCD module as it may cause permanent damage.
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+2
+(10) As this LCD module contains components sensitive to electrostatic discharge, be sure to follow the instructions in below.
+① Operators
+Operators must wear anti-static wears to prevent electrostatic charge up to and discharge from human body.
+② Equipment and containers
+Process equipment such as conveyer, soldering iron, working bench and containers may possibly generate
+electrostatic charge up and discharge. Equipment must be grounded through 100Mohms resistance. Use ion
+blower.
+③ Floor
+Floor is an important part to leak static electricity which is generated from human body or equipment.
+There is a possibility that the static electricity is charged to them without leakage in case of insulating floor, so the countermeasure(electrostatic earth:1×108Ω) should be made.
+④Humidity
+Proper humidity of working room may reduce the risk of electrostatic charge up and discharge. Humidity should
+be kept over 50% all the time.
+⑤Transportation/storage
+Storage materials must be anti-static to prevent causing electrostatic discharge.
+⑥Others
+Protective film is attached on the surface of LCD panel to prevent scratches or other damages. When removing
+this protective film, remove it slowly under proper anti-ESD control such as ion blower.
+(11) Hold LCD very carefully when placing LCD module into the system housing. Do not apply excessive stress or pressure to LCD module. Do not to use chloroprene rubber as it may affect on the reliability of the electrical
+interconnection.
+(12) Do not hold or touch LCD panel to flex interconnection area as it may be damaged.
+(13) As the binding material between LCD panel and flex connector mentioned in 12) contains an organic material,
+any type of organic solvents are not allowed to be used. Direct contact by fingers is also prohibited.
+(14) When carrying the LCD module, place it on the tray to protect from mechanical damage. It is recommended to use
+the conductive trays to protect the CMOS components from electrostatic discharge. When holding the module, hold the Plastic Frame of LCD module so that the panel, COG and other electric parts are not damaged.
+(15) Do not touch the COG‘s patterning area. Otherwise the circuit may be damaged.
+(16) Do not touch LSI chips as it may cause a trouble in the inner lead connection.
+(17) Place a protective cover on the LCD module to protect the glass panel from mechanical damages.
+Don't
+Do
+Don't
+Do
+Don't
+Don't
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+3
+(18) LCD panel is susceptible to mechanical stress and even the slightest stress will cause a color change in background. So make sure the LCD panel is placed on flat plane without any continuous twisting, bending or pushing
+stress.
+(19) Protective film is placed onto the surface of LCD panel when it is shipped from factory. Make sure to peel it off
+before assembling the LCD module into the system. Be very careful not to damage LCD module by electrostatic discharge when peeling off this protective film. Ion blower and ground strap are recommended.
+(20) Make sure the mechanical design of the system in which the LCD module will be assembled matches specified
+viewing angle of this LCD module.
+(21) This LCD module does not contain nor use any ODS (1,1,1-Trichloroethane, CCL4) in all materials used, in all
+production processes.
+[For operating LCD module] (1) Do not operate or store the LCD module under outside of specified environmental conditions.
+(2) At the shipment, adjust the contrast of each LCD module with electric volume. LCD contrast may vary from panel
+to panel depending on variation of LCD power voltage from system. (3) As opt-electrical characteristics of LCD will be changed, dependent on the temperature, the confirmation of
+display quality and characteristics has to be done after temperature is set at 25 °C and it becomes stable.
+[Precautions for Storage] (1) Do not expose the LCD module to direct sunlight or strong ultraviolet light for long periods. Store in a dark place.
+(2) The liquid crystal material will solidify if stored below the rated storage temperature and will become an isotropic
+liquid if stored above the rated storage temperature, and may not retain its original properties. Only store the module at normal temperature and humidity (25±5°C, 60±10%RH) in order to avoid exposing the front polarizer to
+chronic humidity. (3) Keeping Method
+a. Don't keeping under the direct sunlight. b. Keeping in the tray under the dark place.
+(4) Do not operate or store the LCD module under outside of specified environmental conditions.
+(5) Be sure to prevent light striking the chip surface.
+DODON’T
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+4
+[Other Notice] (1) Do not operate or store the LCD module under outside of specified environmental conditions.
+(2) As electrical impedance of power supply lines (VDDI/VSP/VSN) are low when LCD module is working, place the
+de-coupling capacitor nearby LCD module as close as possible.
+(3) Reset signal must be sent after power on to initialize LSI. LSI does not function properly until initialize it by reset
+signal.
+(4) Generally, at power on, in order not to apply DC charge directly to LCD panel, supply logic voltage first and initialize LSI logic function including polarity alternation. Then supply voltage for LCD bias. At power off, in order not
+to apply DC charge directly to LCD panel, execute Power OFF sequence and Discharge command.
+(5) Don’t touch to FPC surface, exposed IC chip, electric parts and other parts, to any electric, metallic materials.
+(6) No bromide specific fire-retardant material is used in this module.
+(7) Do not display still picture on the display over 2 hours as this will damage the liquid crystal.
+(8) The connector used in this LCD module is the one Sharp have not ever used. Therefore, please note that the quality of this connector concerned is out of Sharp's guarantee.
+(9) Be sure to use a power supply with the safety protection circuit such as the fuse for excess voltage, excess current,
+electric discharge waveform and Latch-up occurring.
+(10) Epoxy resin (amine series curing agent), silicone adhesive material (dealcoholization series and oxime series),
+tray forming agent (azo compound) etc, in the cabinet or the packing materials may induce abnormal display with
+polarizer film deterioration regardless of contact or noncontact to polarizer film.
+Be sure to confirm the component of them. (11) This module is designed for OCA TP bonding. If you are changing TP system, please contact us.
+[Precautions for Discarding Liquid Crystal Modules]
+COG: After removing the LSI from the liquid crystal panel, dispose of it in a similar way to circuit boards from electronic devices.
+LCD panel: Dispose of as glass waste. This LCD module contains no harmful substances. The liquid crystal panel
+contains no dangerous or harmful substances. The liquid crystal panel only contains an extremely small amount of
+liquid crystal (approx.100mg) and therefore it will not leak even if the panel should break.
+Its median lethal dose (LD50) is greater than 2,000 mg/kg and a mutagenetic (Aims test: negative) material is employed.
+FPC: Dispose of as similar way to circuit board from electric device.
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+5
+1. Application
+This data sheet is to introduce the specification of LQ055T3SX02Z active matrix 16,777,216color LCD module.
+Main color LCD module is controlled by Driver IC(NT35532).
+If any problem occurs concerning the items not stated in this specification, it must be solved sincerely
+by both parties after deliberation.
+As to basic specification of driver IC refer to the IC specification and handbook.
+2. Construction and Outline
+Construction: LCD panel, Driver (COG), FPC with electric components,
+12 White LED lump, prism sheet, diffuser, light guide and reflector, plastic frame to fix them mechanically.
+Outline: See page 28
+Connection: ZIF connector (HIROSE,FH26-39S-03SHW)
+There shall be no scratches, stains, chips, distortions and other external drawbacks that may affect the display
+function.
+In order to realize thin module structure, double-sided adhesive tapes are used to fix LCD panels. As these tapes do
+not guarantee to permanently fix the panels, LCD panel may rise from the module when shipped from factory.
+So please make sure to design the system to hold the edges of LCD panel by the soft material such as sponge
+when LCD module is assembled into the cabinet.
+3. Mechanical Specification
+Table 1
+Parameter Specifications Unit
+Outline dimensions (typ) 70.84 (W)×128.56 (H)×1.5(D) *2 mm
+Main LCD
+Panel
+Active area 68.04(W)×120.96(H) mm
+Display format 1080(W) × RGB × 1920(H) -
+Dot pitch 0.021(W)×0.063 (H) mm
+Base color *1 Normally Black -
+Illumination mode Transmissive
+Mass About:23 g
+*1 Due to the characteristics of the LC material, the colors vary with environmental temperature.
+*2 The above-mentioned table indicates module sizes without some projections and FPC.
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+6
+4. Electrical Absolute Maximum Ratings
+Table 2 Ta=25 ℃
+Parameter Symbol Conditions Rated value Unit Remarks
+Driver IC (Positive Analog)
+Power Supply Voltage
+VSP – AGND
+Ta=+25℃
+-0.3 ~ +6.5
+V 【Note4-1】
+Driver IC (Negative Analog) Power Supply Voltage
+AGND – VSN
+Ta=+25℃
+-6.5 ~ 0.3
+V 【Note4-1】
+Driver IC (Digital) Power Supply Voltage
+VDDI – GND
+Ta=+25℃
+-0.3 ~ +4.6
+V 【Note4-1】
+LED Forward Current
+IF Ta=+25℃ 30 mA
+LED Peak Pulsed Forward Current
+IFM Ta=+25℃ 60 mA 【Note4-2】
+LED
+Reverse Voltage
+VR Ta=+25℃ 5 V
+LED
+Operating Temperature
+Topr - -30 to +85 ℃
+LED
+Storage Temperature
+Tstg - -40 to +90 ℃
+LED
+Soldering Temperature
+Tsol -
+260 ℃
+【Note4-1】Voltage applied to GND pins. GND pin conditions are based on all the same voltage (0V).
+Always connect all GND externally and use at the same voltage.
+【Note4-2】Duty ratio = 1/10, Pulse width = 0.1msec
+5. Environment Conditions
+Table 3
+Item Top Tstg Remark
+MIN. MAX. MIN. MAX.
+Ambient temperature -20 °C +60°C -30 °C +70°C 【Note5-1】
+Humidity 【Note5-1】 【Note5-1】 No condensation
+【Note5−1】Humidity:95
+Condensation of dew must be avoided.
+As opt-electrical characteristics of LCD will be changed, dependent on the temperature, the confirmation
+of display quality and characteristics has to be done after temperature is set at 25 °C and it becomes stable.
+Be sure not to exceed the rated voltage, otherwise a malfunction may occur.
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+7
+6. Electrical Specifications
+(6-1) Power Supply Voltage Range
+Table 4
+Parameter Symbol Min. Typ. Max. Unit Remarks
+Driver IC(Analog)
+Power Supply Voltage VSP
+5.65V 5.8V 5.95V V 【Note6-1】
+Driver IC(Analog) Power Supply Voltage
+VSN -5.75V -5.6V -5.45V V 【Note6-1】
+Driver IC(Digital) Power Supply
+Voltage VDDI
+1.7V 1.8V 1.9V V 【Note6-1】
+(6-2) DC characteristics
+Table 5 Parameter Symbol Min. Typ. Max. Unit Remarks
+Logic High level input voltage VIH 0.7 VDDI - VDDI V 【Note6-1,2】
+Logic Low level input voltage VIL VSS - 0.3VDDI V 【Note6-1,2】
+Logic High level output voltage VOH 0.8 VDDI VDDI V 【Note6-1,2,3】
+Logic Low level output voltage VOL VSS 0.2 VDDI V 【Note6-1,2,3】
+Logic High level leakage MIPI
+ILIH 10 µA Vin = 0 to 1. 3 V
+Logic Low level leakage
+MIPI ILIL -10 µA Vin = 0 to 1. 3 V
+Current consumption
+IVSP - 9.3 14.0 mA 【Note6-4】
+IVSN 9.9 14.8 mA 【Note6-4】
+IIOVCC - 21.8 32.7 mA 【Note6-4】
+【Note6-1】 The DC/AC electrical characteristics of Module are guaranteed at -20°C ~ +60°C.
+【 Note6-2 】 When the measurements are performed with LCD module, Measurement Points are like below.
+RES,TE and LEDPWM.
+【Note6-3】 IOH = -0.1mA IOL = +0.1mA
+【Note6-4】 Measurement Conditions : Full screen white pattern, VSP=5.8V, VSN=-5.6V ,VDDI=1.8V, 60Hz Refresh
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+8
+(6-3) MIPI DSI characteristics
+<DC characteristics>
+Table6 Ta=+25°C, GND=0V
+Symbol Parameter Min Typ Max Unit
+Power and Operation Voltage for MIPI Receiver
+VDDI Power supply voltage for MIPI RX 1.7 1.8 1.9 V
+VP_HSSI High speed / Low power mode operating
+voltage
+1.62
+V
+MIPI Characteristics for High Speed Receiver
+VILHS Single-ended input low voltage -40 mV
+VIHHS Single-ended input high voltage 460 mV
+VCMRXDC Common-mode voltage 70 330 mV
+ZID Differential input impedance 80 100 125 ohm
+|VOD| HS transmit differential voltage
+( VOD=VDP-VDN) 140 200 250 mV
+VIDTH Different input high threshold 70 mV
+VIDTL Different input low threshold -70 mV
+VTERM-EN Single-ended threshold for HS termination
+enable
+450 mV
+MIPI Characteristics for Low Power Mode
+VI Pad signal voltage range -50 1350 mV
+VGNDSH Ground shift -50 50 mV
+VIL Logic 0 input threshold 0.0 550 mV
+VIH Logic 1 input threshold 880 VDDAM mV
+VHYST Input hysteresis 25 mV
+VOL Output low level -50 50 mV
+VOH Output high level 1.1 1.2 1.3 V
+ZOLP Output impedance of Low Power Transmitter 80 100 125 ohm
+VIHCD,MAX Logic 0 contention threshold 0.0 200 mV
+VILCD,MIN Logic 1 contention threshold 450 VDDAM mV
+Fig.1
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+9
+<AC Characteristics>
+MIPI Interface Characteristics
+High Speed Data Transmission: Data-Clock Timing
+Table 7
+Ta=+25°C, GND=0V
+Parameter Symbol Min Typ Max Units Notes
+UI instantaneous UIINST 1
+12.5 ns 1,2,10
+Data to Clock Skew [measured at
+tansmitter] TSKEW[TX]
+-0.15
+0.15 UIINST 3
+-0.2
+0.2 UIINST 4
+Data to Clock Setup Time [measured
+at receiver] TSETUP[RX]
+-0.15
+0.15 UIINST 5
+-0.2
+0.2 UIINST 6
+Data to Clock Hold Time [measured
+at reciever] T HOLD[RX]
+-0.15
+0.15 UIINST 5
+-0.2
+0.2 UIINST 6
+20% -80% rise time and fall time tR / tF
+100
+ps 9
+0.3 UIINST 7
+0.35 UIINST 8
+Note:
+1. This value corresponds to a minimum 80 MHz data rate.
+2. The minimum UI shall not be violated for any single bit period, i.e.,any DDR half cycle within a data burst.
+3. Total silicon and package delay budget of 0.3* UIINST when D-PHY is supporting maximum data rate = 1Gbps.
+4. Total silicon and package delay budget of 0.4* UIINST when D-PHY is supporting maximum data rate > 1Gbps.
+5. Total setup and hole window for receiver of 0.3* UIINST when D-PHY is supporting maximum data rate = 1Gbps.
+6. Total setup and hole window for receiver of 0.4* UIINST when D-PHY is supporting maximum data rate > 1Gbps.
+7.ApplicablewhenoperatingatHSbitrates≤1Gbps(UI≥1ns).
+8. Applicable when operating at HS bit rates > 1 Gbps (UI < 1 ns).
+9.ApplicableforallHSbitrates.However,toavoidexcessiveradiation,bitrates≤1Gbps(UI≥1ns),shouldnotuse
+values below 150 ps.
+10. For MIPI speed limitation:
+[1] Per lane bandwidth is 1Gbps,
+[2] Total Bit Rate: 4Gbps for 8-8-8; 3Gbps for 6-6-6; and 2.67Gbps for5-6-5.
+Fig.2
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+10
+< HS Data Transmission >
+Table 8
+Parameter Symbol Min Typ Max Units
+Time to drive LP-00 to prepare for HS transmission THS-PREPARE 40+4UI
+85+6UI ns
+Time from start of Ths-TRAIL or Tclk-TRAIL period
+to start of LP-11 state TEOT
+105+12UI ns
+Time to enable Data Lane receiver line termination
+measured from when Dn cross VIL,MAX THS-TERM-EN
+35+4UI ns
+Time to drive flipped differential state after last
+payload data bit of a HS transmission burst T Hs-TRAIL 60+4UI ns
+Time-out at RX to ignore transition period of EoT THS-SKIP 40
+55+4UI ns
+Time to drive LP-11 after HS burst THS-EXIT 100 ns
+Length of any Low-Power state period TLPX 50 ns
+Sync sequence period THS-SYNC 8UI ns
+Minimum lead HS-0 drive period before the Sync
+sequence THS-ZERO 105+6UI ns
+Note: 1: The minimum value depends on the bit rate. Implementations should ensure proper operation for all the supported bit
+rates.
+2: UI means Unit Interval, equal to one half HS the clock period on the Clock Lane. 3: TLPX is an internal state machine timing reference. Externally measured values may differ slightly from the specified
+values due to asymmetrical rise and fall times.
+Fig.3
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+11
+< Turnaround Procedure>
+<Switching the Clock Lane between Clock Transmission and Low-Power Mode>
+Table 9
+Parameter Symbol Min Typ Max Units
+Time that the transmitter shall continue sending HS clock after
+the last associated Data Lane has transitioned to LP mode TCLK-POST 60+128UI
+ns
+Detection time that the clock has stopped toggling TCLK-MISS 60 ns
+Time to drive LP-00 to prepare for HS clock transmission TCLK-PREPARE 38 95 ns
+Minimum lead HS-0 drive period before starting Clock TCLK-PREPARE
++TCLK-ZERO 300
+ns
+Time to enable Clock Lane receiver line termination measured
+from when Dn cross VIL,MAX THS-TERM-EN
+38 ns
+Minimum time that the HS clock must be set prior to any
+associated date lane beginning the transmission from LP to HS mode
+TCLK-PRE 8
+UI
+Time to drive HS differential state after last payload clock bit of
+a HS transmission burst TCLK-TRAIL 60
+ns
+Fig.4
+Fig.5
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+12
+(6-4) Reset Timing Characteristics
+Table 10
+Note:
+-The reset cancel also includes required time for loading ID bytes, VCOM setting and other settings from EEPROM (or similar device)
+to registers.
+This loading is done every time when there is HW reset cancel time (tRT) within 10 ms after a rising edge of RESX.
+-Spike due to an electrostatic discharge on RESX line does not cause irregular system reset according to the table below:
+-During the Resetting period, the display will be blanked(The display is entering blanking sequence, which maximum time is 120 ms,
+when Reset starts at Sleep-Out status. The display remains the blank state in Sleep-In mode). Then return to Default condition for
+Hardware Reset.
+-Spike Rejection also applies during a valid reset pulse as shown below:
+-When Reset applied during Sleep-In Mode.
+-When Reset applied during Sleep-Out Mode.
+-It is necessary to wait 10ms after releasing RESX before sending commands. Also Sleep Out command cannot be sent for 120 ms.
+Reset Timing Characteristics VSP=5.8V, VSN=-5.6V, VDDI=1.7~1.9V
+Signal Symbol Parameter Min Max Unit
+RESX tRW Reset pulse duration 10(Note) - us
+tRT Reset cancel - 10(Note) ms
+- 120(Note) ms
+Fig.6
+Fig.7
+Fig.8
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+13
+(6-5). Vertical Timing Characteristics
+Table 11 Ta=+25°C
+Parameter Symbol MIN. TYP. MAX. Unit Remarks
+Refresh frame rate operation range Rfror 58.4 60 62 Hz
+(6-6) LED backlight
+At main panel the back light uses 12pcs edge light type white LED.
+Table 12
+Parameter Conditions Symbol Min. Typ. Max. Unit Remark
+Forward current Ta=25 °C ILED - 20 - mA
+Forward Voltage Ta=25 °C VLED - 2.9 3.1 V
+Number of LED
+components
+12 pcs LED (6 pcs serial X 2 parallel)
+*Please consider Allowable Forward Current on used temperature
+LED2 LED3 LED4 LED5 LED6LED1 LED7 LED8 LED9 LED11LED10 LED12
+LED K1
+LED K2
+LED A1
+LED A2
+C
+C
+Fig.9 Schematics drawing of lighting
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+14
+(6-7) Interface signals
+Table 13
+Pin No. Symbol I/O Description Remarks
+1 ID（GND） - ID code
+2 LED_K1 I LED Cathode
+3 LED_K2 I LED Cathode
+4 NC - No connect
+5 LED_ A2 I LED Anode
+6 LED_ A1 I LED Anode
+7 NC - No connect
+8 GND - Ground level
+9 VGHSSI - Ground level
+10 D3N I MIPI data3 negative signal line
+11 GND - Ground level
+12 D3P I MIPI data3 positive signal line
+13 VGHSSI - Ground level
+14 D0N I/O MIPI data0 negative signal line
+15 GND - Ground level
+16 D0P I/O MIPI data0 positive signal line
+17 VGHSSI - Ground level
+18 CLKN I MIPI clock signal line
+19 GND - Ground level
+20 CLKP I MIPI clock signal line
+21 VGHSSI - Ground level
+22 D1N I MIPI data1 negative signal line
+23 GND - Ground level
+24 D1P I MIPI data1 positive signal line
+25 VGHSSI - Ground level
+26 D2N I MIPI data2 negative signal line
+27 GND - Ground level
+28 D2P I MIPI data2 positive signal line
+29 VGHSSI - Ground level
+30 GND - Ground level
+31 TE O TE signal output from driver IC
+32 GND - Ground level
+33 LEDPWM O Backlight LED driver PWM
+34 VSP I Analog Power Supply
+35 GND I Ground level
+36 VDDI I 1.8V Digital Power Supply
+37 RES I Reset Pin
+38 VSN I Analog Power Supply
+39 NC - No connect
+Fitting connector(User side): Hirose(FH26-39S-03SHW)
+About Recommendation of the outside circuit , refer to Fig.10 below.
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+15
+1
+2 3
+Q2
+RZF030P01,2021,0.85
+RES
+FH26-39S-0.3SHW(05)
+CN1
+VSN 38
+D0P 16VG HSSI 17CLKN 18GND 19
+VG HSSI 21
+CLKP 20
+D1N 22GND 23D1P 24VG HSSI 25D2N 26
+GND 15
+VG HSSI 13D0N 14
+GND 27
+D3N 10GND 11
+VG HSSI 29
+RES 37
+VDDI 36
+GND 35
+TE 31
+GND 30
+GND 32
+D2P 28
+VSP 34
+VG HSSI 9
+D3P 12
+LED PWM 33
+NC 39
+GND 8
+NC 7
+LED A1 6
+LED A2 5
+NC 4
+LED K2 3
+LED K1 2
+ID(GND) 1
+VSN
+CLKP
+DATA2P
+DATA2N
+DATA0N
+DATA1P
+DATA1N
+CLKN
+DATA0P
+DATA3N
+LED A1
+LED K2
+LEDPWM
+DATA3P
+R3
+100k,0603,0.55mm
+GND
+VDDI
+VSP
+TE
+LED K1
+LED A2
+Q3 RUM002N02,1212,0.5mm
+3
+1 2
+Q1 RZF030P01,2021,0.85
+2
+1
+3
+Fig.10 Recommendation of the outside circuit
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+16
+(6-8) General Timing Diagram
+Fig.11
+(6-9) Vertical Timing
+Fig.12
+Table 14 Vertical Timing
+Item Symbol Conditions Min. Typ. Max. Unit
+Verticle cycle VPT VDISP+VBLK 1942 - Line
+Verticle low pulse width VS - 2 - Line
+Vertical front porch VFP - 14 - Line
+Vertical back porch VBP - 6 - Line
+Vertical data start point VS+VBP - 8 - Line
+Vertical blanking period VBLK VS+VBP+VFP - 22 - Line
+Vertical active area VDISP - 1920 - Line
+Vertical Refresh Rate VRR 58.40 60.00 62.00 Hz
+Ta = -20 °C ~ +60°C, VSP=5.8V, VSN=-5.6V ,VDDI=1.8V, GND = 0 V
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+17
+(6-10) Horizontal Timing
+Fig.13
+Table 15 Horizontal Timing
+Item Symbol Conditions Min. Typ. Max. Unit
+HS cycle HPT HDISP+HBLK - 1176 - PCLK
+HS low Pulse width HS - 8 - PCLK
+Horizontal back porch HBP - 16 - PCLK
+Horizontal front porch HFP - 72 - PCLK
+Horizontal data start point HS+HBP - 24 - PCLK
+Horizontal blanking period HBLK HS+HBP+HFP - 96 - PCLK
+Horizontal active area HDISP - 1080 - PCLK
+1 Horizontal Timing 8.30 8.56 8.82 us
+Pixel clock frequency PCLK - 137.38 - MHz
+MIPI Speed - - 840 860 900 Mbps/lane
+Ta = -20 °C ~ +60°C, VSP=5.8V, VSN=-5.6V ,VDDI=1.8V, GND = 0 V
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+18
+(6-11) Schematic of LCD module system
+Fig.14 Schematic of LCD module system
+1080×RGB×1920
+Back Light
+LED-ANODE1
+LED-CATHOD1
+GND
+VDDI VSP
+RESET TE
+D1P/N
+D0P/N
+Terminal
+Power
+Circuit
+Back-Light
+Host
+Data-I/F
+&
+Logic Block
+CLK P/N
+LED PWM
+D2P/N
+D3P/N
+LED-CATHOD2
+VSN
+LED-ANODE2
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+19
+7. Initial Sequence
+(7-1) Power ON sequence
+Item ADDRESS
+(Hex)
+PARAMETER
+(Hex) Description
+RESX=low
+Wait more than 450ms For VDDI discharge, and POR success
+Power Supply VDDI(Typ1.8V)
+Wait more than 10ms
+XRES=high
+Wait more than 80ms For abnormal power-on success.
+XRES=low
+XRES Low pulse width needs more than 1ms For abnormal power-on success.
+XRES=high
+Wait min 1ms
+Power Supply VSP(Typ+5.8V) For VSP abnormal cut-off circuit
+Wait min 1ms
+Power Supply VSN(Typ-5.6V) For VSN abnormal cut-off circuit
+Wait more than 10ms
+CMD page select FF 00
+NON-RELOAD CMD FB 01
+Wait more than 20ms
+CMD page select FF 00
+D3 08 VBP=8 VFP=14
+D4 0E
+Sleep out 11
+wait for more than 100ms
+DSI Video Mode transfer start
+Display on 29
+wait for more than 40ms
+Write Display Brightness 51 00
+FFh: LED light=100% FF
+Write Control Display 53 2C LED(PWM) ON
+Write Power Save 55 0x CABC OFF=00h, CABC ON=02h
+Turn on B/L
+A
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+20
+(7-2) Power OFF sequenc
+Item ADDRESS
+(Hex)
+PARAMETER
+(Hex) Description
+Write Control Display 53 00 Turn off B/L
+wait for more than 0ms
+Display OFF 28
+Sleep in 10
+wait for more than 100ms (=6Frames)
+DSI Video Mode transfer stop
+CMD page select FF 00
+Wait more than 0ms
+VSN OFF
+Wait min 1ms
+VSP OFF
+XRES=low
+Wait more than 0ms
+VDDI(Typ1.8V) OFF
+A
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+21
+θ=0°
+θ21θ22
+θ12
+θ11
+Viewing Direction
+8. Optical Characteristics
+Table 16
+Optical Characteristics
+Parameter symbol condition MIN TYP MAX unit Remark
+BrightnessBrθ=0°300400−cd/㎡Note1,2
+ContrastCoθ=0°7001000−Note1,3
+Viewing Angle
+θ11
+CR > 10
+- 80 -
+deg Note1 θ12−80−
+θ21−80−
+θ22−80−
+ResponseTime(τr+td)θ=0°−−35msNote1,4
+White
+Chromaticity
+x
+θ=0°
+0.27 0.3 0.33
+- Note 1, 7 y 0.29 0.32 0.35
+Red
+Chromaticity
+x
+θ=0°
+0.64 0.67 0.7
+- Note 1, 7
+y 0.28 0.31 0.34
+Green
+Chromaticity
+x
+θ=0°
+0.24 0.27 0.3
+- Note 1, 7 y 0.61 0.64 0.67
+Blue
+Chromaticity
+x
+θ=0°
+0.13 0.16 0.19
+- Note 1, 7
+y 0.03 0.06 0.09
+Uniformity−θ=0°7080−
+NTSCratio−θ=0°7585−
+FlickerFθ=0°−−10
+VSP=5.8V, VSN=-5.6V , VDDI=1.8V, ILED=20mA, Ta = 25℃
+Note 1) Definition of range of visual angle
+Fig.15 Definition of viewing angle
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+22
+Note 2) Brightness is measured as shown in Fig.16, and is defined as the brightness of all pixels “White”
+at the center of display area on optimum contrast.
+Fig.16 Optical characteristics Test Method (Brightness)
+Note 3) Contrast ratio is defined as follows:
+$ =    ℎ  "ℎ" $
+$   ℎ  " " $
+Note 4) Response time is defined as follows:
+Definition of response time: The response time is defined as the following figure and shall be measured by switching
+the input signal for “black” and “white”
+Fig.17 Response time
+Note 5) Uniformity is defined as follows:
+$ =     ℎ $
+$     ℎ × 100% $
+0%
+10%
+90%
+100%
+Black White
+τdτr
+Time
+P h o to
+d e te
+cte r o
+u tp
+u t
+(a rb
+itra ry
+u n it)
+Black
+SR3
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+23
+The brightness should be measured on the 9-points as shown in the following figure.
+Fig.18 Measuring Point
+Note 6) Flicker is defined as follows:
+･Measuring systems: YOKOGAWA 3298_01 + 3298_11
+･Temperature = 25℃(±3℃), Frame Frequency = 60Hz, LED back-light: ON, Environment brightness < 150 lx
+･Measurement point is panel center.
+･Conversion of Flicker ratio : Flicker[%] =ACrms/DC×100
+･Measured sample : New sample before a long term aging.
+･Flicker ratio is very sensitive to measuring condition.
+･Measuring pattern Please refer to figure below.
+Fig.19 Measuring pattern
+(Note 7) This shall be measured at center of the screen.
+1/6
+1/6
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+24
+9. Reliability
+Table.17
+No. Test Condition Judgment criteria
+1 Temperature Cycling Ta = -30 ° C (30min) ～ 70 ° C(30min),
+32cycle
+Per table in below
+2 Humidity Operation Ta = +40°C 95%RH 120h Per table in below
+3 High Temp. Storage Ta= 70℃ 120h Per table in below
+4 Low Temp. Storage Ta=-30℃ 120h Per table in below
+6 High Temp. Operation Ta= 60℃ 120h Per table in below
+7 Low Temp. Operation Ta=-20℃ 120h Per table in below
+8 ESD Discharge resistance: 0 Ω
+Discharge capacitor: 200 pF
+Discharge voltage: ±200 V Max
+Discharge 1 time to each input line
+※ “GND” of display module is connected
+GND of test system ground.
+Per table in below
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+25
+10. Packaging specifications
+(10-1) Details of packaging
+1) Packaging materials: Table 19
+2) Packaging style : Fig. 20、21
+(10-2) Reliability
+1) Vibration test
+Table.18
+The frequency should start at 5 Hz and vary continuously.
+Total amplitude 20mm 0.2mm 20mm 0.2mm
+Frequency 5 Hz 50 Hz 5 Hz 50 Hz (For 9.8m/s2)
+○ ○ ○
+2) Drop test
+Drop height: 750mm
+Number of drop: 10 times (Drop sequence: 1 corner, 3 edges, 6 faces)
+(10-3) Packaging quantities
+240 modules per master carton
+(10-4) Packaging weight
+About 12KG
+(10-5) Packaging outline dimensions
+530 mm×365 mm×279mm (H)
+(Packaging materials)
+Table.19
+Parts name CRITERION(after test)
+1 Master carton Corrugate card board
+2 Inside sleeve Corrugate card board
+3 Outside sleeve Corrugate card board
+4 Tray for packaging Polystyrene with anti-static treatment +anti-static polystyrene
+5 Aluminum bag PET/ AL /PA/PE with anti-static treatment
+6 OPP tape Polypropylene
+7 Bar code label anti-static polystyrene
+Item Test
+Frequency 5 Hz to 50 Hz (3 minutes cycle)
+Direction Up-Down, Left-Right, Front-Back (3 directions)
+Period Up-Down Left-Right Front-Back Total
+60min 15min 15min 90min
+3 minutes
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+26
+Fig.20 Packaging style (Tray for packaging)
+Fig.21 Packaging style (Master carton for packaging)
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+27
+11. Serial Number Label identification
+Numbering is specified as follows.
+LQ055T3SX02Z 4 G 0000001 A Q
+①②③④⑤⑥
+①LCD Module Code
+②product year ( lower 1 digits )
+4: 2014
+5: 2015
+③product month
+1: January
+2: February 3: March
+:
+9: September X: October
+Y: November Z: December
+④serial number
+0000001 ～ 9999999
+⑤Version number
+⑥factory code
+SPEC No.
+LCY-W-14702A
+MODEL No.
+LQ055T3SX02Z
+PAGE
+28
+12. Outline dimensions
+Fig. 22 Outline dimensions
